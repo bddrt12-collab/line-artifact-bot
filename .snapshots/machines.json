@@ -136,23 +136,5 @@
     "note": "อีเมลไม่ระบุจังหวัด",
     "pickupAt": "2026-10-29T13:00:00+07:00",
     "province": "กระบี่"
-  },
-  "testrun-1": {
-    "branch": "testrun 1",
-    "carrier": "",
-    "emailDate": "2026-10-21",
-    "mapUrl": "",
-    "note": "ข้อมูลทดสอบบอท LINE",
-    "pickupAt": "2026-10-22T10:00:00+07:00",
-    "province": "ทดสอบ"
-  },
-  "testrun-2": {
-    "branch": "testrun 2",
-    "carrier": "",
-    "emailDate": "2026-10-21",
-    "mapUrl": "",
-    "note": "ข้อมูลทดสอบบอท LINE",
-    "pickupAt": "2026-10-22T10:00:00+07:00",
-    "province": "ทดสอบ"
   }
 }
