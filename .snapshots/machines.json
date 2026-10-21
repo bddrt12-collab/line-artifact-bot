@@ -1,0 +1,140 @@
+{
+  "1934": {
+    "branch": "BCP ราษพัฒนา",
+    "carrier": "",
+    "emailDate": "2026-09-16",
+    "mapUrl": "https://maps.app.goo.gl/pf7HPnAeZpJsW3xB6",
+    "note": "",
+    "pickupAt": "2026-09-19T10:00:00+07:00",
+    "province": "กรุงเทพ"
+  },
+  "1935": {
+    "branch": "BCP ถนน 345",
+    "carrier": "",
+    "emailDate": "2026-09-16",
+    "mapUrl": "https://maps.app.goo.gl/rEHsg96aCDvoj8mh9",
+    "note": "",
+    "pickupAt": "2026-09-19T10:00:00+07:00",
+    "province": "กรุงเทพ"
+  },
+  "1937": {
+    "branch": "BCP นครชัยศรี",
+    "carrier": "ภายนอก",
+    "emailDate": "2026-09-29",
+    "mapUrl": "https://maps.app.goo.gl/Uf9ct3ihJXZfwsoo6",
+    "note": "",
+    "pickupAt": "2026-10-03T09:00:00+07:00",
+    "province": "นครปฐม"
+  },
+  "1938": {
+    "branch": "BCP บรมไตรโลกนาถ",
+    "carrier": "",
+    "emailDate": "2026-09-28",
+    "mapUrl": "https://www.google.com/maps?q=16.80268,100.2505",
+    "note": "",
+    "pickupAt": "2026-10-06T09:00:00+07:00",
+    "province": "พิษณุโลก"
+  },
+  "1939": {
+    "branch": "BCP พิษณุโลก",
+    "carrier": "",
+    "emailDate": "2026-09-28",
+    "mapUrl": "https://www.google.com/maps?q=16.842537,100.231453",
+    "note": "",
+    "pickupAt": "2026-10-06T09:00:00+07:00",
+    "province": "พิษณุโลก"
+  },
+  "1940": {
+    "branch": "BCP ปากน้ำ",
+    "carrier": "ภายนอก",
+    "emailDate": "2026-09-29",
+    "mapUrl": "https://maps.app.goo.gl/cQe3x6PP1fozrThn6",
+    "note": "",
+    "pickupAt": "2026-10-03T09:00:00+07:00",
+    "province": "สมุทรปราการ"
+  },
+  "1941": {
+    "branch": "BCP ชลบุรี 101",
+    "carrier": "ภายนอก",
+    "emailDate": "2026-09-29",
+    "mapUrl": "https://www.google.com/maps?q=13.308436,100.952381",
+    "note": "",
+    "pickupAt": "2026-10-04T09:00:00+07:00",
+    "province": "ชลบุรี"
+  },
+  "1942": {
+    "branch": "BCP บายพาส-ชลบุรี",
+    "carrier": "ภายนอก",
+    "emailDate": "2026-09-29",
+    "mapUrl": "https://www.google.com/maps?q=13.332663,100.978321",
+    "note": "",
+    "pickupAt": "2026-10-04T09:00:00+07:00",
+    "province": "ชลบุรี"
+  },
+  "1943": {
+    "branch": "BCP ปากช่อง",
+    "carrier": "ภายใน",
+    "emailDate": "2026-10-05",
+    "mapUrl": "https://www.google.com/maps?q=14.651944,101.357804",
+    "note": "อีเมลไม่ระบุจังหวัด",
+    "pickupAt": "2026-10-07T09:00:00+07:00",
+    "province": "นครราชสีมา"
+  },
+  "1944": {
+    "branch": "BCP นาอาน",
+    "carrier": "ภายใน",
+    "deliveredAt": "2026-10-19",
+    "deliveredBy": "อภิชาติ (ตุ๊)",
+    "emailDate": "2026-10-12",
+    "mapUrl": "https://maps.app.goo.gl/VhjYWWNZCbTNtm9R8",
+    "note": "อีเมลบอก 2 เครื่อง แต่ระบุแค่เครื่องเดียว",
+    "pickupAt": "2026-10-16T13:00:00+07:00",
+    "proofCount": 9,
+    "province": "เลย"
+  },
+  "1945": {
+    "branch": "BCP ถนนทรงพล",
+    "carrier": "ภายใน",
+    "emailDate": "2026-10-12",
+    "mapUrl": "https://maps.app.goo.gl/mD2AFusPHpLrqUVg9",
+    "note": "อีเมลไม่ระบุจังหวัด",
+    "pickupAt": "2026-10-19T09:00:00+07:00",
+    "province": "นครปฐม"
+  },
+  "1946": {
+    "branch": "BCP สันทราย",
+    "carrier": "ภายนอก",
+    "emailDate": "2026-10-15",
+    "mapUrl": "https://www.google.com/maps?q=18.809161,99.024899",
+    "note": "",
+    "pickupAt": "2026-10-22T09:00:00+07:00",
+    "province": "เชียงใหม่"
+  },
+  "1947": {
+    "branch": "BCP สันป่าตอง",
+    "carrier": "ภายนอก",
+    "emailDate": "2026-10-15",
+    "mapUrl": "https://maps.app.goo.gl/NH9jjG3qnfammoK17",
+    "note": "",
+    "pickupAt": "2026-10-22T09:00:00+07:00",
+    "province": "เชียงใหม่"
+  },
+  "1948": {
+    "branch": "BCP ช้างเผือก เชียงใหม่",
+    "carrier": "ภายใน",
+    "emailDate": "2026-10-14",
+    "mapUrl": "https://maps.app.goo.gl/6Bc8yrTLX9HLSF2c8",
+    "note": "",
+    "pickupAt": "2026-10-25T13:00:00+07:00",
+    "province": "เชียงใหม่"
+  },
+  "1949": {
+    "branch": "BCP บิ๊กซี กระบี่",
+    "carrier": "ภายใน",
+    "emailDate": "2026-10-14",
+    "mapUrl": "https://maps.app.goo.gl/wWoGonuy6uUZg3xd9",
+    "note": "อีเมลไม่ระบุจังหวัด",
+    "pickupAt": "2026-10-29T13:00:00+07:00",
+    "province": "กระบี่"
+  }
+}
