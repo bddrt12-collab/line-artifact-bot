@@ -1,4 +1,5 @@
-// Webhook: replies with the sender's LINE User ID so it can be put in .env as LINE_USER_ID.
+// Webhook: replies with the sender's User ID (1:1 chat) or the Group ID (group chat),
+// either of which can be used as LINE_USER_ID, the push destination.
 const http = require('http');
 const crypto = require('crypto');
 require('./env');
@@ -16,13 +17,16 @@ http
       if (sig !== req.headers['x-line-signature']) return res.writeHead(401).end();
       res.writeHead(200).end();
       for (const ev of JSON.parse(body).events || []) {
-        if (ev.type !== 'message' && ev.type !== 'follow') continue;
+        if (!['message', 'follow', 'join'].includes(ev.type)) continue;
+        const { groupId, userId } = ev.source;
+        const text = groupId ? `Group ID ของกลุ่มนี้:\n${groupId}` : `User ID ของคุณ:\n${userId}`;
+        console.log(text.replace('\n', ' '));
         await fetch('https://api.line.me/v2/bot/message/reply', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${LINE_CHANNEL_TOKEN}` },
           body: JSON.stringify({
             replyToken: ev.replyToken,
-            messages: [{ type: 'text', text: `User ID ของคุณ:\n${ev.source.userId}` }],
+            messages: [{ type: 'text', text }],
           }),
         }).catch((e) => console.error(e.message));
       }
