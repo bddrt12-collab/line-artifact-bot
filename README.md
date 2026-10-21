@@ -15,3 +15,7 @@ Hook `PostToolUse` (Artifact) ใน `.claude/settings.json` เรียก `no
 ครั้งแรกที่ publish จะส่ง "เผยแพร่ครั้งแรก" ถ้าเนื้อหาไม่เปลี่ยนจะไม่ส่ง
 
 ข้อจำกัด: จับได้เฉพาะการ publish ผ่าน Claude Code session นี้ (ไม่ใช่การแก้ในหน้าเว็บโดยตรง)
+
+## แจ้งเมื่อข้อมูลในฐานข้อมูลเปลี่ยน
+`dbnotify.js <dir>` อ่านไฟล์ `machines/*.json` ที่ export จากฐานข้อมูลของ artifact (หนึ่งไฟล์ต่อหนึ่งรายการ) เทียบกับ `.snapshots/machines.json` แล้วส่งสรุปรายการที่เพิ่ม/แก้/ลบ
+routine บน cloud export ด้วย ArtifactData (`list`, collection `machines`, `out_dir`) ก่อนเรียกสคริปต์นี้
