@@ -104,19 +104,25 @@
   "1946": {
     "branch": "BCP สันทราย",
     "carrier": "ภายนอก",
+    "deliveredAt": "2026-10-23",
+    "deliveredBy": "อภิชาติ (ตุ๊)",
     "emailDate": "2026-10-15",
     "mapUrl": "https://www.google.com/maps?q=18.809161,99.024899",
     "note": "",
     "pickupAt": "2026-10-22T09:00:00+07:00",
+    "proofCount": 4,
     "province": "เชียงใหม่"
   },
   "1947": {
     "branch": "BCP สันป่าตอง",
     "carrier": "ภายนอก",
+    "deliveredAt": "2026-10-23",
+    "deliveredBy": "อภิชาติ (ตุ๊)",
     "emailDate": "2026-10-15",
     "mapUrl": "https://maps.app.goo.gl/NH9jjG3qnfammoK17",
     "note": "",
     "pickupAt": "2026-10-22T09:00:00+07:00",
+    "proofCount": 4,
     "province": "เชียงใหม่"
   },
   "1948": {
@@ -130,11 +136,52 @@
   },
   "1949": {
     "branch": "BCP บิ๊กซี กระบี่",
-    "carrier": "ภายใน",
+    "carrier": "ภายนอก",
     "emailDate": "2026-10-14",
     "mapUrl": "https://maps.app.goo.gl/wWoGonuy6uUZg3xd9",
-    "note": "อีเมลไม่ระบุจังหวัด",
-    "pickupAt": "2026-10-29T13:00:00+07:00",
+    "note": "อีเมลไม่ระบุจังหวัด · ปรับแผน 26 ต.ค.: เลื่อนเป็น 27 ต.ค. รถภายนอก (ไม่ระบุเวลา) และให้เลือก Serial Number เครื่องได้",
+    "pickupAt": "2026-10-27T13:00:00+07:00",
     "province": "กระบี่"
+  },
+  "xxxx-1": {
+    "branch": "BCP หนองมน",
+    "carrier": "ภายนอก",
+    "code": "xxxx",
+    "emailDate": "2026-10-25",
+    "mapUrl": "https://www.google.com/maps?q=13.271975,100.935512",
+    "note": "อีเมลไม่ระบุรหัสเครื่อง",
+    "pickupAt": "2026-10-26T09:00:00+07:00",
+    "province": "ชลบุรี"
+  },
+  "xxxx-2": {
+    "branch": "BCP มหาชัย-พระราม 2",
+    "carrier": "ภายนอก",
+    "code": "xxxx",
+    "emailDate": "2026-10-25",
+    "mapUrl": "https://maps.app.goo.gl/jeZCFdfQNStxAX986",
+    "note": "อีเมลไม่ระบุรหัสเครื่อง",
+    "pickupAt": "2026-10-26T09:00:00+07:00",
+    "province": "กรุงเทพ"
+  },
+  "xxxx-3": {
+    "branch": "ปลาลัง",
+    "carrier": "ภายนอก",
+    "code": "xxxx",
+    "emailDate": "2026-10-26",
+    "mapUrl": "https://maps.app.goo.gl/PzXdNZqesGAwK3b66",
+    "note": "เพิ่มจากอีเมลปรับแผน 26 ต.ค. ไม่ระบุรหัสเครื่องและเวลา",
+    "pickupAt": "2026-10-27T13:00:00+07:00",
+    "province": "กระบี่"
+  },
+  "xxxx-4": {
+    "branch": "BCP ตลาดรังสิต",
+    "carrier": "ภายใน",
+    "code": "xxxx",
+    "emailDate": "2026-10-25",
+    "mapUrl": "https://maps.google.com/?q=13.9871469,100.6123963",
+    "note": "เครื่องมอเตอร์ไซค์ · ปรับแผน 26 ต.ค.: เดิม 27 ต.ค. รถภายนอก → 29 ต.ค. รถภายใน",
+    "pickupAt": "2026-10-29T09:00:00+07:00",
+    "province": "ปทุมธานี",
+    "type": "jetx"
   }
 }
